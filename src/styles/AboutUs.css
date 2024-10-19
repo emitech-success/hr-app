@@ -1,0 +1,26 @@
+.about-us {
+  padding: 50px 20px;
+  background-color: #ffffff;
+  color: #0f172a; /* Slate */
+  text-align: center;
+}
+
+.about-us h2 {
+  font-size: 36px;
+  margin-bottom: 30px;
+}
+
+.about-us .content p {
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+@media (max-width: 768px) {
+  .about-us h2 {
+    font-size: 28px;
+  }
+
+  .about-us .content p {
+    font-size: 16px;
+  }
+}

@@ -1,0 +1,42 @@
+.services {
+  background-color: #f1f5f9; /* Light slate */
+  color: #0f172a; /* Slate */
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.services h2 {
+  font-size: 36px;
+  margin-bottom: 40px;
+}
+
+.service-list {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.service-item {
+  width: 30%;
+  margin-bottom: 30px;
+}
+
+.service-item h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.service-item p {
+  font-size: 16px;
+}
+
+@media (max-width: 768px) {
+  .service-list {
+    flex-direction: column;
+  }
+
+  .service-item {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
